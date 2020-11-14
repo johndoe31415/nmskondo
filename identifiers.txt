@@ -1,0 +1,31 @@
+6f= player_data
+@Cs owned_starships
+hl? available_slots
+
+:No content
+1o9	quantity
+F9q	max_quantity
+3ZH position
+>Qh	x
+XJ>	y
+b2n	identifier
+
+elv category
+Vn8	classification
+
+;l5 inventory
+PMT inventory_tech
+gan inventory_cargo
+3Nc	storage_01
+IDc	storage_02
+M=:	storage_03
+iYp	storage_04
+<IP	storage_05
+qYJ	storage_06
+@e5	storage_07
+5uh	storage_08
+5Tg	storage_09
+Bq<	storage_10
+
+=Tb width
+N9> height

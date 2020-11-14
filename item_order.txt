@@ -1,0 +1,148 @@
+# vim:ts=20 syntax=dosini
+^YELLOW2	S	Copper
+^EX_YELLOW	S	Activated Copper
+^FUEL1	S	Carbon
+^FUEL2	S	Condensed Carbon
+^OXYGEN	S	Oxygen
+^COLD1	S	Dioxite
+^CATALYST1	S	Sodium
+^CATALYST2	S	Sodium Nitrate
+^STELLAR2	S	Chromatic Metal
+^CAVE1	S	Cobalt
+^CAVE2	S	Ionised Cobalt
+^DUSTY1	S	Pyrite
+^HOT1	S	Phosphorus
+^LAND1	S	Ferrite Dust
+^LAND2	S	Pure Ferrite
+^LAND3	S	Magnetised Ferrite
+^ASTEROID1	S	Silver
+^ASTEROID2	S	Gold
+^CREATURE1	S	Mordite
+^SAND1	S	Silicate Powder
+^LUSH1	S	Paraffinium
+^RED2	S	Cadmium
+^EX_RED	S	Activated Cadmium
+^GREEN2	S	Emeril
+^EX_GREEN	S	Activated Emeril
+^BLUE2	S	Indium
+^TOXIC1	S	Ammonia
+^GAS1	S	Sulphurine
+^GAS2	S	Radon
+^GAS3	S	Nitrogen
+^LAVA1	S	Basalt
+^RADIO1	S	Uranium
+^ROBOT1	S	Pugneum
+^WATER1	S	Salt
+^WATER2	S	Chlorine
+^WATERPLANT	S	Cyto-Phosphate
+^LAUNCHSUB	S	Di-hydrogen
+^LAUNCHSUB2	S	Deuterium
+^ROCKETSUB	S	Tritium
+^AF_METAL	S	Tainted Metal
+
+^PLANT_CAVE	S	Marrow Bulb
+^PLANT_LUSH	S	Star Bulb
+^PLANT_HOT	S	Solanium
+^PLANT_DUST	S	Cactus Flesh
+^PLANT_POOP	S	Faecium
+^PLANT_RADIO	S	Gamma Root
+^PLANT_SNOW	S	Frost Crystal
+^PLANT_TOXIC	S	Fungal Mould
+
+^GRAVBALL	P	Gravitino Ball
+^ALBUMENPEARL	P	Albumen Pearl
+^CLAMPEARL	P	Living Pearl
+
+^SPACEGUNK3	S	Rusted Metal
+^SPACEGUNK1	S	Residual Goop
+^SPACEGUNK5	S	Viscous Fluids
+^SPACEGUNK4	S	Living Slime
+^SPACEGUNK2	S	Runaway Mould
+
+
+^CASING	C	Metal Plating
+^NANOTUBES	P	Carbon Nanotubes
+^JELLY	C	Di-hydrogen Jelly
+^MICROCHIP	P	Microprocessor
+^MIRROR	P	Solar Mirror
+^TECH_COMP	P	Wiring Loom
+^MAGNET	P	Magnetic Resonator
+^FARMPROD3	P	Glass
+^STORM_CRYSTAL	P	Storm Crystal
+^REPAIRKIT	P	Repair Kit
+
+^ANTIMATTER	P	Antimatter
+^AM_HOUSING	P	Antimatter Housing
+^NAV_DATA	P	Navigation Data
+^POWERCELL	P	Ion Battery
+^PRODFUEL2	P	Life Support Gel
+^AMMO	P	Projectile Ammunition
+^GRENFUEL1	P	Unstable Plasma
+
+^ALLOY1	P	Aronium
+^ALLOY2	P	Dirty Bronze
+^ALLOY3	P	Herox
+^ALLOY4	P	Lemmium
+^ALLOY4	P	Lemmium
+^ALLOY5	P	Magno-Gold
+^ALLOY6	P	Grantine
+^ALLOY7	P	Geodesite
+^ALLOY8	P	Iridesite
+
+^BAIT_BASIC	P	Creature Pellets
+^BIO	P	Amino Chamber
+^COMPOUND1	P	Organic Catalyst
+^COMPOUND2	P	Semiconductor
+^COMPOUND3	P	Hot Ice
+^REACTION1	P	Thermic Condensate
+^REACTION2	P	Enriched Carbon
+
+^EYEBALL	P	Hypnotic Eye
+^FIENDCORE	P	Larval Core
+^FISHCORE	P	Hadal Core
+^FOOD_P_GLITCH	P	Hexaberry
+^FOOD_P_HOTWILD	P	Fireberry
+^FOOD_P_RADWILD	P	Grahberry
+^FOOD_P_TOXWILD	P	Jade Peas
+^FOOD_V_CRAB	P	Crab 'Apple'
+^NIPNIPBUDS	P	NipNip Buds
+
+^ACCESS1	P	AtlasPass v1
+^ACCESS2	P	AtlasPass v2
+^ACCESS3	P	AtlasPass v3
+
+
+
+^FREI_INV_TOKEN	P	Cargo Bulkhead
+^SHIP_INV_TOKEN	P	Storage Augmentation
+^WEAP_INV_TOKEN	P	Multi-Tool Expansion Slot
+
+^QUAD_PROD	P	Quad Servo
+^WALKER_PROD	P	Walker Brain
+
+
+^STARCHART_A	P	Planetary Chart
+^TRA_MINERALS5	P	Re-latticed Arc Crystal
+^VENTGEM	P	Crystal Sulphide
+
+^U_COLDPROT3	P	Thermal Protection Module
+^U_EXO_ENG4	P	Exocraft Engine Module
+^U_EXO_SUB4	P	Humboldt Drive Module
+^U_HOTPROT3	P	Thermal Protection Module
+^U_UNW3	P	Underwater Protection Module
+
+
+^EXP_CURIO1	P	Korvax Casing
+^EXP_CURIO2	P	Korvax Convergence Cube
+^WAR_CURIO1	P	Vy'keen Effigy
+^WAR_CURIO2	P	Vy'keen Dagger
+^TRA_CURIO1	P	Gek Relic
+^TRA_CURIO2	P	GekNip
+
+
+^STORY_TRANSLATE	T	Artemis' Translator
+^SUIT_REFINER	T	Personal Refiner
+^JET1	T	Jetpack
+^POWERGLOVE	T	Haz-Mat Gauntlet
+^PROTECT	T	Hazard Protection
+^UT_WATER	T	Aeration Membrane
