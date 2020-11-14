@@ -19,6 +19,7 @@
 #
 #	Johannes Bauer <JohannesBauer@gmx.de>
 
+import os
 import json
 from .Inventory import Inventory
 from .DB import DB
@@ -61,6 +62,7 @@ class MappedDict():
 
 class Savegame():
 	def __init__(self, filename):
+		self._stat = os.stat(filename)
 		with open(filename) as f:
 			raw_data = json.loads(f.read().rstrip("\x00"))
 			self._data = MappedDict.deobfuscate(raw_data)
@@ -81,6 +83,7 @@ class Savegame():
 		with open(filename, "w") as f:
 			json.dump(MappedDict.obfuscate(self._data), f)
 			f.write("\x00")
+		os.utime(filename, (self._stat.st_atime, self._stat.st_mtime))
 
 	def pretty_print(self, output_filename):
 		with open(output_filename, "w") as f:
