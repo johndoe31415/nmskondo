@@ -17,6 +17,7 @@
 ^LAND3	S	Magnetised Ferrite
 ^ASTEROID1	S	Silver
 ^ASTEROID2	S	Gold
+^ASTEROID3	S	Platinum
 ^CREATURE1	S	Mordite
 ^SAND1	S	Silicate Powder
 ^LUSH1	S	Paraffinium
@@ -25,6 +26,7 @@
 ^GREEN2	S	Emeril
 ^EX_GREEN	S	Activated Emeril
 ^BLUE2	S	Indium
+^EX_BLUE	S	Activated Indium
 ^TOXIC1	S	Ammonia
 ^GAS1	S	Sulphurine
 ^GAS2	S	Radon
@@ -67,13 +69,15 @@
 ^MIRROR	P	Solar Mirror
 ^TECH_COMP	P	Wiring Loom
 ^MAGNET	P	Magnetic Resonator
+^COMPUTER	P	Quantum Computer
 ^FARMPROD3	P	Glass
 ^STORM_CRYSTAL	P	Storm Crystal
 ^REPAIRKIT	P	Repair Kit
 
+^NAV_DATA	P	Navigation Data
+^BP_SALVAGE	P	Salvaged Data
 ^ANTIMATTER	P	Antimatter
 ^AM_HOUSING	P	Antimatter Housing
-^NAV_DATA	P	Navigation Data
 ^POWERCELL	P	Ion Battery
 ^PRODFUEL2	P	Life Support Gel
 ^AMMO	P	Projectile Ammunition
@@ -88,6 +92,9 @@
 ^ALLOY6	P	Grantine
 ^ALLOY7	P	Geodesite
 ^ALLOY8	P	Iridesite
+
+^HYPERFUEL1	P	Warp Cell
+^HYPERFUEL2	P	Warp Hypercore
 
 ^BAIT_BASIC	P	Creature Pellets
 ^BIO	P	Amino Chamber
@@ -111,8 +118,6 @@
 ^ACCESS2	P	AtlasPass v2
 ^ACCESS3	P	AtlasPass v3
 
-
-
 ^FREI_INV_TOKEN	P	Cargo Bulkhead
 ^SHIP_INV_TOKEN	P	Storage Augmentation
 ^WEAP_INV_TOKEN	P	Multi-Tool Expansion Slot
@@ -120,8 +125,16 @@
 ^QUAD_PROD	P	Quad Servo
 ^WALKER_PROD	P	Walker Brain
 
+^FRIGATE_FUEL_1	P	Frigate Fuel (50 Tonnes)
+^FRIGATE_FUEL_2	P	Frigate Fuel (100 Tonnes)
+^FRIGATE_FUEL_3	P	Frigate Fuel (200 Tonnes)
+^GEODE_ASTEROID	P	Gold Nugget
 
 ^STARCHART_A	P	Planetary Chart
+^STARCHART_B	P	Planetary Chart
+^STARCHART_C	P	Planetary Chart
+^STARCHART_D	P	Planetary Chart
+^ABAND_LOCATOR	P	Emergency Broadcast Receiver
 ^TRA_MINERALS5	P	Re-latticed Arc Crystal
 ^VENTGEM	P	Crystal Sulphide
 
@@ -131,7 +144,7 @@
 ^U_HOTPROT3	P	Thermal Protection Module
 ^U_UNW3	P	Underwater Protection Module
 
-
+^CAVECUBE	P	Vortex Cube
 ^EXP_CURIO1	P	Korvax Casing
 ^EXP_CURIO2	P	Korvax Convergence Cube
 ^WAR_CURIO1	P	Vy'keen Effigy
@@ -139,10 +152,15 @@
 ^TRA_CURIO1	P	Gek Relic
 ^TRA_CURIO2	P	GekNip
 
-
 ^STORY_TRANSLATE	T	Artemis' Translator
 ^SUIT_REFINER	T	Personal Refiner
 ^JET1	T	Jetpack
 ^POWERGLOVE	T	Haz-Mat Gauntlet
 ^PROTECT	T	Hazard Protection
 ^UT_WATER	T	Aeration Membrane
+
+^FRIG_BOOST_COM	P	Explosive Drones
+^FRIG_BOOST_EXP	P	Holographic Analyser
+^FRIG_BOOST_MIN	P	Mineral Compressor
+^FRIG_BOOST_SPD	P	Fuel Oxidiser
+^FRIG_BOOST_TRA	P	Mind Control Device
